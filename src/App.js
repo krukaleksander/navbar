@@ -1,7 +1,12 @@
 import './App.css';
+import Navbar from './Navbar';
 
 const App = () => {
-  return <h1>navbar project</h1>
+  return (
+    <>
+      <Navbar />
+    </>
+  )
 }
 
 export default App;
